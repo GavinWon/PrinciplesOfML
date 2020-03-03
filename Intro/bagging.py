@@ -9,7 +9,7 @@ Created on Sat Feb 29 11:33:51 2020
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import preprocessing
 from sklearn import datasets ## Get dataset from sklearn
-import sklearn.cross_validation as train_test_split ##deprecated, might need to change later
+import sklearn.model_selection as ms
 import sklearn.metrics as sklm
 import matplotlib.pyplot as plt
 import pandas as pd
